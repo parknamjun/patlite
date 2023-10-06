@@ -357,7 +357,7 @@ class Control {
     /**
      * The setting of connection indication is changed.
      *
-     * @param setting Setting(OFFF0x00AONF0x01)
+     * @param setting Setting(OFF:0x00 ON:0x01)
      * @return Success: 0, Failure: Other than 0
      */
 
@@ -398,7 +398,7 @@ class Control {
     /**
      * Get touch sensor input status<br>
      *
-     * @return Acquisition failure:-1, Touch sensor input OFF:0ATouch sensor input ON:1
+     * @return Acquisition failure:-1, Touch sensor input OFF:0, Touch sensor input ON:1
      */
 
     public int getTouchSensorState() {
