@@ -312,7 +312,7 @@ class Control {
      *
      * @param buz_state The buzzer pattern (setting of :0x06 of stars twinkling in the sky, London bridge :0x07 and the current state is maintained: 0x08-0x0F)
      * @param limit Continued movement :0 and frequency movement: Setting of 1-14 and the current state is maintained: 0xF
-     * @param volume[in]: The volume (setting of sound deadening :0x00, stage volume :0x01-0x09, the biggest volume :0x0A and the current state is maintained: 0x0B-0x0F)
+     * @param volume: The volume (setting of sound deadening :0x00, stage volume :0x01-0x09, the biggest volume :0x0A and the current state is maintained: 0x0B-0x0F)
      * @return Success: 0, Failure: Other than 0
      */
 
