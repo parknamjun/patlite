@@ -37,7 +37,8 @@ public class Main {
         } catch (Exception e) {
             System.out.println(e.getMessage());
         } finally {
-            control.usb_close();
+            if(control.devHandle != null)
+                control.usb_close();
         }
     }
 
