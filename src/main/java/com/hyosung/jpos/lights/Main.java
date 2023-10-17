@@ -1,8 +1,8 @@
 package com.hyosung.jpos.lights;
 
 /**
- * PATLITE NE-USB LED control sample
- * @Author:
+ * @from: PATLITE NE-USB LED control sample
+ * @Author: tns
  * @Date: 2023.10.04
  */
 public class Main {
