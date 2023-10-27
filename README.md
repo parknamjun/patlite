@@ -21,3 +21,6 @@ mvn package
 ```bash
 java -jar target/Main.jar 
 ```
+
+# Serial port scanner
+* NRSerialPortReadTest.java
